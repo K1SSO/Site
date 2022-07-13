@@ -1,0 +1,15 @@
+
+            <div class="port-itens"> <!-- onclick="window.open(")"; "style="cursor: pointer; "&nbsp;" -->
+                <img src="../img/tabela.png" alt="Tabela periodica" width="350" height="320">
+                <p class="legenda_port">Tabela periodica</p>
+            </div>
+
+                <div class="port-itens"> <!-- onclick="window.open(")"; "style="cursor: pointer; "&nbsp;" -->
+                    <img src="../img/lanche.jpeg" alt="Lanche" width="350" height="320">
+                    <p class="legenda_port">Lanche brabo</p>
+                </div>
+
+                    <div class="port-itens"> <!-- onclick="window.open(")"; "style="cursor: pointer; "&nbsp;" -->
+                        <img src="../img/araras-sp.jpeg" alt="Minha araras" width="350" height="320">
+                        <p class="legenda_port">Minha araras</p>
+                    </div>

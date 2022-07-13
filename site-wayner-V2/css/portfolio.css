@@ -1,0 +1,319 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+    font-family: "Montserrat", sans-serif;
+    background-color: #1C1D21;
+    margin: 0;
+    padding: 0;
+}
+.top {
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 15px;
+    margin: auto; 
+    color: #43C59E;
+    background-color: transparent;
+    border-bottom: 3px solid #43C59E;
+} 
+
+li, a, button {
+    font-family:'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 19px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1px 10%;
+}
+
+.nav_links {
+    list-style: none;
+}
+
+.nav_links li {
+    display: inline-block;
+    margin-inline: 20px;
+    padding: 10px ;
+    justify-content: center;
+}
+
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover {
+    color: #43C59E;
+}
+
+button {
+    padding: 9px 25px;
+    background-color: #43C59E;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    border: 3px solid #011627;
+    outline: 2px solid #43C59E;
+}
+
+button:hover {
+    background-color: rgba(67,197,158,0.8);
+}
+
+/* content */
+
+.portfolio {
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    display: flex;
+    gap: 40px;
+    grid-template-columns: repeat(auto-fit, minmax (320px, 1fr));
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 25px;
+    background-color: transparent;
+}
+
+.port-itens {
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+    color: #43C59E;
+}
+
+.portfolio img {
+    border-radius: 16px;
+    width: 300px;
+    height: 290px;
+}
+
+.legenda_port {
+    font-size: 18px;
+    letter-spacing: 1px;
+    margin-top: 8px;
+    text-align: center;
+}
+
+.container {
+    display: inline;
+    position: relative;
+    width: 100%;
+    margin: 10px;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    padding-top: 275px;
+    left: 0;
+    right: 0;
+    background-color: #43C59E;
+    border-radius: 16px;
+    overflow: hidden;
+    width: 0%;
+    height: 100%;
+    transition: .5s ease;
+}
+
+.text:hover {
+    color: #1C1D21;
+    transition: 0.5s;
+}
+.container:hover .overlay {
+    width: 100%;
+}
+
+.text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+    transition: 0.5s;
+}
+
+/* direito */
+
+.container2 {
+    display: inline;
+    position: relative;
+    width: 100%;
+    margin: 10px;
+}
+
+.image2 {
+    width: 350px;
+    height: 320px;
+}
+
+.overlay2 {
+    position: absolute;
+    bottom: 0;
+    padding-top: 275px;
+    position: absolute;
+    bottom: 0;
+    left: 100%;
+    right: 0;
+    background-color: #43C59E;
+    border-radius: 16px;
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: .5s ease;
+}
+
+.container2:hover .overlay2 {
+    width: 100%;
+    left: 0;
+}
+
+.text2 {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+    transition: 0.5s;
+}
+
+.text2:hover {
+    color: #1C1D21;
+    transition: 0.5s;
+}
+
+/* footer */
+
+footer {
+    background-color: rgba(67,197,158,0.8);
+    padding: 20px;
+}
+
+.footer-itens {
+    list-style: none;
+    text-align: center;
+    font-size: 22px;
+    margin: 0 0 1em;
+    display: flex;
+    gap: 5em;
+    justify-content: center;
+}
+
+.footer-itens li {
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+.footer-itens li a {
+    transition: all 0.3s ease 0s;
+}
+
+.footer-itens li a:hover {
+    color: #011627;
+}
+
+
+.item {
+    border-radius: 100px;
+    padding: 10px 20px;
+}
+
+.footer-text0 {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.email {
+    text-decoration: underline white;
+}
+
+.footer-text0 {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.col-sm-4 {
+    text-decoration: none;
+    color:aliceblue;
+    margin: 0 0 1.5em;
+    margin-left: 2%;;
+    display: flex;
+    gap:1.5em;
+    font-size: 15px;
+    justify-content: center;
+}
+
+
+.icons {
+    list-style: none;
+}
+
+.social-medias {
+    list-style: none;
+    display: flex;
+    gap: 1em;
+    justify-content: center;
+}
+
+.fa-whatsapp {
+    font-size: 20px;
+}
+
+.fa-linkedin {
+    background: #3B5998;
+    text-align: center;
+    padding: 15px;
+    font-size: 20px;
+    width: 20px;
+    border-radius: 100%;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    text-align: center;
+    padding: 15px;
+    font-size: 20px;
+    width: 20px;
+    border-radius: 50%;
+}
+
+.fa-instagram {
+    background: #125688;
+    text-align: center;
+    padding: 15px;
+    font-size: 20px;
+    width: 20px;
+    border-radius: 100%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+
+.Phrase {
+    font-style: italic;
+    font-size: 19px;
+    margin-top: 10px;
+}
+
+
+.Phrase_2 {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 10px;
+}

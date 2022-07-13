@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+    font-family: "Montserrat", sans-serif;
+    background-color: #1C1D21;
+    margin: 0;
+    padding: 0;
+}
+.top {
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 15px;
+    margin: auto; 
+    color: #43C59E;
+    background-color: transparent;
+    border-bottom: 3px solid #43C59E;
+} 
+
+li, a, button {
+    font-family:'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 19px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1px 10%;
+
+}
+
+.nav_links {
+    list-style: none;
+}
+
+.nav_links li {
+    display: inline-block;
+    margin-inline: 20px;
+    padding: 10px ;
+    justify-content: center;
+}
+
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover {
+    color: #43C59E;
+}
+
+button {
+    padding: 9px 25px;
+    background-color: #43C59E;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    border: 3px solid #011627;
+    outline: 2px solid #43C59E;
+}
+
+button:hover {
+    background-color: rgba(67,197,158,0.8);
+}
+
+/* conteudo */
+
+.titles {
+    font-size: 3em;
+    color: ivory;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.titles h2 {
+    font-size: 30px;
+    margin-top: -4%;
+}
+
+.prof-pic {
+    float: right;
+    margin-top: 10%;
+    margin-right: 30%;
+    margin-left: 80px;
+    border-radius: 50%;
+    border: 3px solid;
+    border-color: rgba(255,159,28,1);
+    opacity: 1;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.container {
+    float: right;
+    border-radius: 50%;
+    margin-top: 8%;
+    margin-right: 23%;
+    margin-left: 0px;
+    border-radius: 50%;
+    width: auto;
+    height: auto;
+}
+
+.fade {
+    transition: .5s ease;
+    opacity: 0;
+    float: right;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    margin-right: 25%;
+    margin-top: -25%;
+}
+
+.container:hover .prof-pic {
+    opacity: 0.3;
+}
+
+.container:hover .fade {
+    opacity: 1;
+}
+
+.text0 {
+    background-color: transparent;
+    color: white;
+    font-size: 10px;
+    padding: 1px 30px;
+    border-radius: 100px;
+}
+
+.text {
+    text-align: left;
+    font-size: 15px;
+    color:aliceblue;
+    padding: 10%;
+    line-height: auto;
+    width: 40%;
+    margin-left: 17%;
+    margin-top: 3%;
+    border-style: solid;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px #0000008c;
+    border: 20px;
+}
+
+/* footer */
+
+footer {
+    background-color: rgba(67,197,158,0.8);
+    padding: 20px;
+}
+
+.footer-itens {
+    list-style: none;
+    text-align: center;
+    font-size: 22px;
+    margin: 0 0 1em;
+    display: flex;
+    gap: 5em;
+    justify-content: center;
+}
+
+.footer-itens li {
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+.footer-itens li a {
+    transition: all 0.3s ease 0s;
+}
+
+.footer-itens li a:hover {
+    color: #011627;
+}
+
+
+.item {
+    border-radius: 100px;
+    padding: 10px 20px;
+}
+
+.footer-text0 {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.email {
+    text-decoration: underline white;
+}
+
+.footer-text0 {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.col-sm-4 {
+    text-decoration: none;
+    color:aliceblue;
+    margin: 0 0 1.5em;
+    margin-left: 2%;;
+    display: flex;
+    gap:1.5em;
+    font-size: 15px;
+    justify-content: center;
+}
+
+
+.social-medias {
+    list-style: none;
+    display: flex;
+    gap: 1em;
+    justify-content: center;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    text-align: center;
+    padding: 15px;
+    font-size: 20px;
+    width: 20px;
+    border-radius: 100%;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    text-align: center;
+    padding: 15px;
+    font-size: 20px;
+    width: 20px;
+    border-radius: 50%;
+}
+
+.fa-instagram {
+    background: #125688;
+    text-align: center;
+    padding: 15px;
+    font-size: 20px;
+    width: 20px;
+    border-radius: 100%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+
+.Phrase {
+    font-style: italic;
+    font-size: 19px;
+    margin-top: 10px;
+}
+
+.Phrase_2 {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 10px;
+}
